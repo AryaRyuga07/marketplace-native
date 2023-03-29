@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+
+.header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+nav {
+	height: 80px;
+	background-color: #216487;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+}
+
+.logo img{
+	width: 230px;
+	height: 42px;
+	padding-top: 17px;
+	padding-left: 7px;
+
+}
+
+nav form{
+	padding-top: 20px;
+}
+
+nav .search {
+	display: flex;
+	margin: auto 0;
+	height: 30px;
+	line-height: 30px;
+	max-width: 600px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.search > i {
+	padding-left: 10px;
+	line-height: 32px;
+	opacity: 50%;
+}
+
+nav .search input{
+	border: none;
+	outline: none;
+	background-color: #fff;
+	height: 100%;
+	padding: 0 10px;
+	font-size: 15px;
+	width: 600px;
+	border-radius: 20px;
+
+}
+
+.cart {
+	width: 50px;
+	height: 50px;
+	padding-top: 23px;
+	margin-right: -70px;
+}
+
+.cart i {
+	font-size: 30px;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.cart i:hover{
+	cursor: pointer;
+	color: azure;
+}
+
+.profile {
+	display: flex;
+	padding-right: 20px;
+	padding-top: 11px;
+
+}
+
+.profile h3 {
+	padding-top: 14px;
+	padding-right: 15px;
+	font-size: 19px;
+	color: #fff;
+	font-weight: bold;
+
+}
+
+.foto {
+	width: 50px;
+	height: 50px;
+	border: 3px solid #ddd;
+	border-radius: 100%;
+}
+
+.profile:hover{
+	cursor: pointer;
+}
+
+/* main */
+
+.main {
+	height: 100%;
+	display: flex;
+    flex-wrap: wrap;
+	padding-top: 100px;
+    
+}
+
+/* isi produk */
+
+.isi-produk {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 40px;
+}
+
+.isi {
+	width: 200px;
+	height: 235px;
+	background-color: #fff;
+	border: 2px solid #ddd;
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px 1px #ddd;
+	transition: 0.5s;
+    margin: 20px 10px;
+}
+
+.isi img {
+	width: 100px;
+	height: 139px;
+	padding-left: 50px;
+}
+
+.isi h1 {
+	font-size: 13px;
+	margin: auto 15px;
+	font-weight: 400;
+}
+
+.isi h2 {
+	font-size: 15px;
+	font-weight: 600;
+	margin: 1px 15px;
+}
+
+.isi p {
+	font-size: 12px;
+	margin: 0 15px;
+}
+
+.isi:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+	background-color: azure;
+}
+
+/* footer */
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 35px;
+	background-color: #6E7071;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 15px;
+	padding-top: 10px;
+	font-weight: 600;
+	color: #fff;
+}

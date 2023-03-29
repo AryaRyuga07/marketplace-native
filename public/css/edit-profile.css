@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, input {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #216487;
+}
+
+.header a img {
+    width: 230px;
+    height: 42px;
+    display: flex;
+    margin: auto;
+    padding-top: 14px;
+}
+
+/* main */
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.input-field {
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.input-field > h1 {
+    font-size: 26px;   
+}
+
+/* edit */
+
+.edit-profile {
+    margin-top: 30px;
+    width: 1000px;
+    height: 200px;
+    background-color: #fafafa;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid #4d4d4d;
+}
+
+.edit-profile h1 {
+    font-size: 20px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.edit-profile img {
+    margin-left: 54px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px outset #dedede;
+}
+
+/* input image */
+
+input[type="file"]{
+}
+
+label {
+    text-align: center;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    background-color: #216487;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+label p {
+    margin-top: 8px;
+}
+
+label:hover {
+    background-color: #45afe7;
+    cursor: pointer;
+}
+
+/* personal information */
+
+.edit-personal {
+    margin-top: 30px;
+    width: 1000px;
+    height: 700px;
+    background-color: #fafafa;
+    border-radius: 20px;
+    border: 2px solid #4d4d4d;
+    padding-bottom: 240px;
+}
+
+.edit-personal h1 {
+    font-size: 28px;
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* page */
+
+#page > p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+/* name */
+
+.name {
+    padding-left: 40px;
+}
+
+.name input {
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.input-name {
+	display: flex;
+    border: 2px outset #ddd;
+	margin: auto 0;
+	height: 50px;
+	line-height: 30px;
+	max-width: 400px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.input-name > i {
+	padding-left: 20px;
+    margin-top: 8px;
+	line-height: 32px;
+	opacity: 50%;
+}
+
+.input-name input{
+	border: none;
+	outline: none;
+	background-color: #fff;
+	height: 100%;
+	padding: 0 10px;
+	font-size: 15px;
+	width: 600px;
+	border-radius: 20px;
+
+}
+
+/* birthday */
+
+.birthday {
+    padding-left: 40px;
+}
+
+.birthday input {
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.input-date {
+	display: flex;
+    border: 2px outset #ddd;
+	margin: auto 0;
+	height: 50px;
+	line-height: 30px;
+	max-width: 400px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.input-date > i {
+	padding-left: 20px;
+    margin-top: 8px;
+	line-height: 32px;
+	opacity: 50%;
+}
+
+.input-date input{
+	border: none;
+	outline: none;
+	background-color: #fff;
+	height: 100%;
+	padding: 0 10px;
+	font-size: 15px;
+	width: 330px;
+	border-radius: 20px;
+
+}
+
+/* gender */
+
+.gender {
+    padding-left: 40px;
+}
+
+.gender select {
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.input-date {
+	display: flex;
+    border: 2px outset #ddd;
+	margin: auto 0;
+	height: 50px;
+	line-height: 30px;
+	max-width: 400px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.input-date > i {
+	padding-left: 18px;
+    margin-top: 8px;
+	line-height: 32px;
+	opacity: 50%;
+}
+
+.input-date select{
+	border: none;
+	outline: none;
+	background-color: #fff;
+	height: 100%;
+	padding: 0 10px;
+	font-size: 15px;
+	width: 335px;
+	border-radius: 20px;
+
+}
+
+/* email */
+
+.email {
+    padding-left: 40px;
+}
+
+.email input {
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.input-name {
+	display: flex;
+    border: 2px outset #ddd;
+	margin: auto 0;
+	height: 50px;
+	line-height: 30px;
+	max-width: 400px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.input-name > i {
+	padding-left: 20px;
+    margin-top: 8px;
+	line-height: 32px;
+	opacity: 50%;
+}
+
+.input-name input{
+	border: none;
+	outline: none;
+	background-color: #fff;
+	height: 100%;
+	padding: 0 10px;
+	font-size: 15px;
+	width: 600px;
+	border-radius: 20px;
+
+}
+
+/* no */
+
+.no {
+    padding-left: 40px;
+}
+
+.no input {
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.alamat {
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+
+.radio {
+	padding-left: 20px;
+}
+
+.input-name {
+	display: flex;
+    border: 2px outset #ddd;
+	margin: auto 0;
+	height: 50px;
+	line-height: 30px;
+	max-width: 400px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.input-name > i {
+	padding-left: 20px;
+    margin-top: 8px;
+	line-height: 32px;
+	opacity: 50%;
+}
+
+.input-name input{
+	border: none;
+	outline: none;
+	background-color: #fff;
+	height: 100%;
+	padding: 0 10px;
+	font-size: 15px;
+	width: 600px;
+	border-radius: 20px;
+
+}
+
+/* submit button */
+
+.btn-submit {
+	margin-left: 40px;
+    width: 150px;
+    height: 40px;
+    background-color: #216487;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+.btn-submit:hover {
+    background-color: #45afe7;
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+	height: 35px;
+	background-color: #6E7071;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-top: 50px;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	padding-top: 10px;
+	color: #fff;
+}
+
+.radio {
+	display: flex;
+    border: 2px outset #ddd;
+	margin: auto 0;
+	height: 50px;
+	line-height: 30px;
+	max-width: 400px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.radio > i {
+	padding-left: 20px;
+    margin-top: 8px;
+	line-height: 32px;
+	opacity: 50%;
+}
+
+.radio_label {
+	margin: 10px 10px;
+}
+
+.radio input{
+	border: none;
+	outline: none;
+	background-color: #fff;
+	padding: 0 10px;
+	font-size: 15px;
+	width: 15px;
+	height: 50px;
+}
